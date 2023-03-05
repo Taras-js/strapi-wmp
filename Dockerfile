@@ -7,7 +7,6 @@ WORKDIR /home/
 COPY ./package.json ./package-lock.json ./
 ENV PATH /home/node_modules/.bin:$PATH
 RUN npm install
-WORKDIR /home/app
 COPY ./ .
 RUN npm run build
 EXPOSE 1337
