@@ -16,7 +16,8 @@
     "@strapi/strapi": "4.6.1",
     "monaco-editor-webpack-plugin": "^7.0.1",
     "mysql": "2.18.1",
-    "strapi-plugin-import-export-entries": "^1.18.0"
+    "strapi-plugin-import-export-entries": "^1.18.0",
+    "yarn": "^1.22.19"
   },
   "author": {
     "name": "Taras<shev-taras@ya.ru>"
